@@ -1,8 +1,30 @@
+html{
+    height: 100%;
+}
 .flexPic
 {
-    width: 60px;
-    height:60px;
+    width: 155px;
+    height:155px;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+
+.spaseing
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.nsec{
+    text-align: center;
+}
+
+.foot{
+
+    bottom:0;
+    width:100%;
+       /* Height of the footer */
+    background:#4682B4;
 }
