@@ -5,7 +5,12 @@
     <title>Title</title>
 </head>
 <body>
-<button onclick="fight()">fight</button>
+<div title="back" class="back">
+    <a href="Resume.html"> <img src="left-arrow.png" align="right" style=" height: 50px;width: 50px;padding-right: 22px;"></a>
+</div>
+Go in the console then click fight!
+<br>
+<button onclick="fight()" style="width: 111px;height:66px;"><h2>FIGHT!</h2></button>
 </body>
 <script>
     var hero = 100;
@@ -18,8 +23,8 @@
 
         hero =  hero - Math.floor(Math.random() * 7);
         goblin = goblin - Math.floor(Math.random() * 5);
-        console.log("hero",hero);
-        console.log("goblin",goblin);
+        console.log("Hero:",hero);
+        console.log("Goblin:",goblin);
     }while (goblin >= 0 && hero >= 0);
 
 

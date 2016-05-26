@@ -5,6 +5,9 @@
     <title>Title</title>
 </head>
 <head>
+    <div title="back" class="back">
+        <a href="Resume.html"> <img src="left-arrow.png" align="right" style=" height: 50px;width: 50px; padding-top: 88px;padding-right: 22px;"></a>
+    </div>
     <meta charset="UTF-8">
     <title>Monster Function Game</title>
     <script src="monsterEAT.js"></script>
@@ -12,8 +15,8 @@
     <style>
         body{font-family: 'Slabo 27px', serif; background-color: #494949;}
         #container{ width: 100%; height:auto;}
-        .card{ width: 180px; height: 220px; float:left; margin-left: 15px; margin-top: 10px; border-radius: 3px; cursor: pointer; background-image: url(card.png); font-size: 18px;}
-        #gamecontainer{width: 600px; height: 600px; margin: 50px auto; overflow: hidden; clear:both; border-radius: 5px;background-image: url(http://www.uxcobra.com/js/monstermunch/images/mbackground.jpg); position:relative;}
+        .card{ width: 180px; height: 220px; float:left; margin-left: 15px; margin-top: 10px; border-radius: 3px; cursor: pointer; background-image: url(images/card.png); font-size: 18px;}
+        #gamecontainer{width: 600px; height: 600px; margin: 50px auto; overflow: hidden; clear:both; border-radius: 5px; background-image: url(http://www.uxcobra.com/js/monstermunch/images/mbackground.jpg); position:relative;}
         h3{text-align:center; font-size: 30px; margin-top: 40px;}
         span{display:block; text-align: center; padding-top: 80px; }
         h5{margin-top: 10px; text-align:center; margin-bottom: 0;}
@@ -27,12 +30,9 @@
         .redbtn{ background-color: #C05A5C;}
         .greenbtn{ background-color: #81B860;}
         #score{color: #ffffff;}
-
     </style>
 </head>
-
-<body>
-
+<body onload="rungame()">
 
 <div id="container">
     <div id="gamecontainer">
@@ -44,7 +44,6 @@
 
     </div>
 </div>
-
 
 </body>
 </html>
